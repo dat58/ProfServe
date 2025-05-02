@@ -1,0 +1,15 @@
+[package]
+name = "profserve"
+description = "HTTP-Enabled Profiling for Rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["dat58 <vtdat58@gmail.com>"]
+license = "Apache-2.0"
+rust-version = "1.66.0"
+repository = "https://github.com/dat58/profserve"
+keywords = ["profiling", "pprof", "flamegraph"]
+
+[dependencies]
+actix-web = { version = "4", default-features = false, features = ["macros"] }
+pprof = { version = "0.14", features = ["flamegraph"] }
+serde = { version = "1", default-features = false, features = ["derive"] }
