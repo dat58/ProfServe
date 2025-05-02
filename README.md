@@ -1,9 +1,9 @@
 # ProfServe - HTTP-Enabled Profiling for Rust
 
 [![Documentation](https://docs.rs/profserve/badge.svg)](https://docs.rs/profserve)
-[![Crates.io](https://img.shields.io/crates/v/profserve)](https://crates.io/crates/profserve)
-[![License](https://img.shields.io/crates/l/profserve)](https://crates.io/crates/profserve)
-[![Download](https://img.shields.io/crates/d/profserve)](https://crates.io/crates/profserve)
+[![Crates.io](https://img.shields.io/crates/v/profserve.svg)](https://crates.io/crates/profserve)
+[![License](https://img.shields.io/crates/l/profserve.svg)](https://github.com/dat58/ProfServe/blob/main/LICENSE)
+[![Download](https://img.shields.io/crates/d/profserve.svg)](https://crates.io/crates/profserve)
 
 ProfServe is a Rust crate that provides HTTP endpoints for performance profiling, built on top of `pprof-rs`. It enables remote profiling capabilities for your Rust applications with flamegraph generation and pprof data export.
 
